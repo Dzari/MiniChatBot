@@ -40,9 +40,3 @@ UI (Gradio)
 - Unit tests: backend contract, truncation guarantees, stop‑handling.  
 - Track B: implement/train **TinyGPT**, plug in as `TinyBackend`.  
 - Stretch: RAG with FAISS; tool/function calling; small LoRA finetunes.
-
-## Reviewer checklist
-- Clear interface boundaries; UI depends only on `ChatBackend`.  
-- Correct token budgeting and prompt slicing; stop sequences respected.  
-- Sensible decoding defaults; device/dtype switching works.  
-- Swapping to an **instruction‑tuned** model yields markedly better coherence.
