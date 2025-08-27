@@ -1,0 +1,4 @@
+torch
+transformers>=4.41
+safetensors
+gradio>=4.0
